@@ -13,7 +13,10 @@ const app = express();
 app.use(express.json());
 
 const corsOptions = {
-    origin: ["http://localhost:8000", "http://localhost:5173"],
+    origin: [
+        "http://localhost:5173",
+        "https://techsilog-59idx0o7w-fearme666s-projects.vercel.app/"
+    ],
     credentials: true,
     optionsSuccessStatus: 200
 };
