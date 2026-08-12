@@ -15,7 +15,7 @@ app.use(express.json());
 const corsOptions = {
     origin: [
         "http://localhost:5173",
-        "https://techsilog-59idx0o7w-fearme666s-projects.vercel.app/"
+        "https://techsilog.romhert.dev"
     ],
     credentials: true,
     optionsSuccessStatus: 200
