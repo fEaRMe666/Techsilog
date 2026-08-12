@@ -1,0 +1,129 @@
+/* Techsilog - Purple Void Theme
+   Bootstrap handles layout, spacing, alignment, and responsiveness.
+   This file keeps the project-specific colors in one place.
+*/
+
+:root {
+    --tech-bg: #0D0718;
+    --tech-surface: #1B102D;
+    --tech-primary: #8B5CF6;
+    --tech-secondary: #C084FC;
+    --tech-accent: #22D3EE;
+    --tech-text: #FAF5FF;
+
+    --admin-yellow: #FFD54A;
+    --admin-gold: #D4AF37;
+    --admin-surface: #2A2108;
+    --admin-text: #FFF1A8;
+}
+
+.tech-bg {
+    background-color: var(--tech-bg);
+    color: var(--tech-text);
+}
+
+.tech-surface {
+    background-color: var(--tech-surface);
+    color: var(--tech-text);
+}
+
+.tech-border {
+    border-color: var(--tech-primary) !important;
+}
+
+.tech-text {
+    color: var(--tech-text) !important;
+}
+
+.tech-secondary-text {
+    color: var(--tech-secondary) !important;
+}
+
+.tech-accent-text {
+    color: var(--tech-accent) !important;
+}
+
+.tech-primary-btn {
+    background-color: var(--tech-primary);
+    color: var(--tech-text);
+    border-color: var(--tech-primary);
+}
+
+.tech-primary-btn:hover,
+.tech-primary-btn:focus {
+    background-color: var(--tech-secondary);
+    color: var(--tech-bg);
+    border-color: var(--tech-secondary);
+}
+
+.tech-secondary-btn {
+    color: var(--tech-secondary);
+    border-color: var(--tech-secondary) !important;
+}
+
+.tech-secondary-btn:hover,
+.tech-secondary-btn:focus {
+    background-color: var(--tech-secondary);
+    color: var(--tech-bg);
+}
+
+.tech-accent-btn {
+    color: var(--tech-accent);
+    border-color: var(--tech-accent) !important;
+}
+
+.tech-accent-btn:hover,
+.tech-accent-btn:focus {
+    background-color: var(--tech-accent);
+    color: var(--tech-bg);
+}
+
+.tech-dark-panel {
+    background-color: var(--tech-bg);
+    color: var(--tech-text);
+    border-color: var(--tech-primary) !important;
+}
+
+.tech-link {
+    color: var(--tech-accent);
+}
+
+.tech-link:hover {
+    color: var(--tech-secondary);
+}
+
+.tech-tag {
+    background-color: var(--tech-primary) !important;
+    color: var(--tech-text) !important;
+}
+
+/* Admin posts and comments use a simple yellow/gold theme. */
+.admin-card,
+.admin-comment {
+    background-color: var(--admin-surface) !important;
+    color: var(--admin-text) !important;
+    border-color: var(--admin-gold) !important;
+}
+
+.admin-text {
+    color: var(--admin-yellow) !important;
+}
+
+.admin-badge {
+    background-color: var(--admin-gold) !important;
+    color: var(--tech-bg) !important;
+}
+
+/* Post and comment vote buttons use the same yellow/gold hue. */
+.gold-vote-btn {
+    color: var(--admin-yellow);
+    border-color: var(--admin-gold) !important;
+}
+
+.gold-vote-btn:hover,
+.gold-vote-btn:focus,
+.gold-vote-active {
+    background-color: var(--admin-gold) !important;
+    color: var(--tech-bg) !important;
+    border-color: var(--admin-gold) !important;
+}
